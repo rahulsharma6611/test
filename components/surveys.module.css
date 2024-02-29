@@ -1,0 +1,78 @@
+.bookCelebrities,
+.starclinch {
+  position: relative;
+}
+.bookCelebrities {
+  white-space: nowrap;
+}
+.separatorIcon {
+  height: 12px;
+  width: 19px;
+  position: relative;
+}
+.reportingFindings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 16px;
+}
+.joinCommunity,
+.postYourRequirements {
+  position: relative;
+  white-space: nowrap;
+}
+.screenshotAt {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 65px;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+}
+.header,
+.surveys {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.header {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-29xl) var(--padding-101xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.surveys {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+  font-family: var(--body-1);
+}
+@media screen and (max-width: 1350px) {
+  .header {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .screenshotAt {
+    gap: 0 65px;
+  }
+  .header {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .screenshotAt {
+    gap: 0 65px;
+  }
+}

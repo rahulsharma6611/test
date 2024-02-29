@@ -1,0 +1,328 @@
+.ellipseShape {
+  width: 1605.2px;
+  height: 1605.2px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  box-shadow: 0 68.8px 61.15px rgba(34, 33, 100, 0.12) inset;
+  border: 0 solid var(--color-midnightblue);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.catBrowseIcon,
+.frameChild {
+  position: absolute;
+  overflow: hidden;
+}
+.frameChild {
+  top: 47.55px;
+  left: -20.6px;
+  border-radius: 45.85px;
+  background-color: var(--color-slateblue);
+  width: 185.1px;
+  height: 185.1px;
+  transform: rotate(-7.59deg);
+  transform-origin: 0 0;
+  display: none;
+}
+.catBrowseIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-781xl);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.frameParent {
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  margin: 0 !important;
+  top: 410.3px;
+  right: 199.9px;
+  z-index: 1;
+}
+.frameInstIcon,
+.frameInstIcon1,
+.frameInstIcon2 {
+  width: 248.8px;
+  height: 248.8px;
+  position: absolute;
+  margin: 0 !important;
+  top: 792px;
+  border-radius: 111.19px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameInstIcon {
+  right: 0.2px;
+}
+.frameInstIcon1,
+.frameInstIcon2 {
+  left: 0;
+}
+.frameInstIcon2 {
+  top: 400.9px;
+  left: 182px;
+}
+.categoriesText {
+  width: 27px;
+  position: relative;
+  font-size: var(--font-size-9xl);
+  font-family: var(--body-1);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.membersText {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-3xs) var(--padding-3xs);
+  background-color: var(--color-whitesmoke);
+  width: 55px;
+  border-radius: var(--br-65xl);
+  backdrop-filter: blur(59px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.membersText1:hover,
+.membersText:hover {
+  background-color: var(--color-lightgray);
+}
+.div {
+  width: 27px;
+  position: relative;
+  font-size: var(--font-size-9xl);
+  font-family: var(--body-1);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.membersText1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-3xs) var(--padding-3xs);
+  background-color: var(--color-whitesmoke);
+  width: 55px;
+  border-radius: var(--br-65xl);
+  backdrop-filter: blur(59px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.chooseCats,
+.membersTextParent {
+  margin: 0 !important;
+  position: absolute;
+  display: flex;
+  max-width: 100%;
+}
+.membersTextParent {
+  width: 546px;
+  top: 313px;
+  left: calc(50% - 272px);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 3;
+}
+.chooseCats {
+  width: 1680px;
+  height: 1953px;
+  bottom: -993px;
+  left: calc(50% - 840px);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-11xl);
+  box-sizing: border-box;
+  gap: 80px 0;
+}
+.meetOurStarclinch {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.activitySliderIcon {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 24px;
+  transform: scale(1.667);
+}
+.wrapperActivitySlider {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: var(--br-13xl);
+  flex-shrink: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.members {
+  position: relative;
+  font-size: var(--body-1-size);
+  font-family: var(--body-1);
+  color: var(--color-white);
+  text-align: center;
+}
+.membersArea {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-lg) var(--padding-5xs)
+    var(--padding-5xl);
+  background-color: transparent;
+  border-radius: var(--br-40xl);
+  background: linear-gradient(180deg, #205f5f, rgba(8, 8, 16, 0));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.designDynamos {
+  align-self: stretch;
+  position: relative;
+}
+.theArtistsBehind {
+  width: 763px;
+  position: relative;
+  font-size: var(--body-1-size);
+  color: var(--color-gray-400);
+  display: inline-block;
+}
+.boostParty,
+.starclinchTeam1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px 0;
+}
+.boostParty {
+  gap: 24px 0;
+}
+.ourDesignTeam {
+  position: relative;
+}
+.designDynamosChild {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  object-fit: contain;
+}
+.designDynamos1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 10px;
+  max-width: 100%;
+  font-size: var(--body-1-size);
+  color: var(--color-mediumturquoise);
+}
+.lateNightMaggie {
+  align-self: stretch;
+  gap: 48px 0;
+  z-index: 2;
+}
+.component47,
+.lateNightMaggie,
+.starclinchTeam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.starclinchTeam {
+  width: 763px;
+  gap: 84px 0;
+}
+.component47 {
+  align-self: stretch;
+  background-color: var(--color-gray-200);
+  box-shadow: 0-80px 90px #080810 inset;
+  overflow: hidden;
+  padding: var(--padding-101xl) var(--padding-xl) var(--padding-101xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 120px 0;
+  text-align: center;
+  font-size: var(--heading-2-size);
+  color: var(--color-white);
+  font-family: var(--body-1);
+}
+@media screen and (max-width: 1350px) {
+  .component47 {
+    padding-top: var(--padding-59xl);
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .designDynamos,
+  .meetOurStarclinch {
+    font-size: var(--font-size-19xl);
+  }
+  .starclinchTeam {
+    gap: 84px 0;
+  }
+  .component47 {
+    gap: 120px 0;
+    padding-top: var(--padding-32xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .categoriesText,
+  .div {
+    font-size: var(--font-size-3xl);
+  }
+  .membersTextParent {
+    flex-wrap: wrap;
+  }
+  .chooseCats {
+    height: auto;
+  }
+  .designDynamos,
+  .meetOurStarclinch {
+    font-size: var(--font-size-10xl);
+  }
+  .ourDesignTeam,
+  .theArtistsBehind {
+    font-size: var(--font-size-lgi);
+  }
+  .lateNightMaggie {
+    gap: 48px 0;
+  }
+  .starclinchTeam {
+    gap: 84px 0;
+  }
+  .component47 {
+    gap: 120px 0;
+  }
+}

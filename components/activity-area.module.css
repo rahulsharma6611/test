@@ -1,0 +1,59 @@
+.lateNightMaggie {
+  width: 447px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.eventFrameIcon {
+  height: 100%;
+  width: 461.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0.4px;
+  bottom: 0;
+  border-radius: 35.19px;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.activityArea,
+.activitySlider {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.activitySlider {
+  width: 959px;
+  align-items: flex-end;
+  padding: var(--padding-56xl) var(--padding-6xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: 0 51px;
+  min-height: 461px;
+  z-index: 1;
+}
+.activityArea {
+  width: 1361px;
+  align-items: flex-start;
+  text-align: right;
+  font-size: var(--heading-2-size);
+  color: var(--color-gray-500);
+  font-family: var(--body-1);
+}
+@media screen and (max-width: 900px) {
+  .lateNightMaggie {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .lateNightMaggie {
+    font-size: var(--font-size-10xl);
+  }
+  .activitySlider {
+    gap: 0 51px;
+  }
+}

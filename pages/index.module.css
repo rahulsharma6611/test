@@ -1,0 +1,120 @@
+.componentInst,
+.starclinchSquads {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.componentInst {
+  flex: 1;
+  flex-direction: column;
+}
+.starclinchSquads {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 191px;
+  box-sizing: border-box;
+}
+.frameChild,
+.frameItem {
+  position: absolute;
+  margin: 0 !important;
+  border-radius: var(--br-881xl);
+  box-shadow: 0-23px 54px rgba(0, 0, 0, 0.09);
+  backdrop-filter: blur(96px);
+  overflow: hidden;
+  flex-shrink: 0;
+  transform-origin: 0 0;
+}
+.frameChild {
+  height: 244.1px;
+  width: 244.1px;
+  right: -238.74px;
+  bottom: 95.97px;
+  background: linear-gradient(167.09deg, rgba(138, 74, 108, 0.69), transparent);
+  transform: rotate(25.83deg);
+}
+.frameItem {
+  height: 450px;
+  width: 450px;
+  bottom: -354.36px;
+  left: 472px;
+  background: linear-gradient(167.09deg, rgba(113, 138, 74, 0.71), transparent);
+  transform: rotate(112.88deg);
+  z-index: 1;
+}
+.anotherFrameIcon,
+.anotherFrameIcon1 {
+  border-radius: 43.59px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.anotherFrameIcon {
+  height: 481.4px;
+  flex: 1;
+  max-width: 100%;
+  z-index: 2;
+}
+.anotherFrameIcon1 {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  right: -333.9px;
+  bottom: -378.6px;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frameParent {
+  width: 521px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.missionvisionAnimation,
+.ourTeam {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.missionvisionAnimation {
+  align-self: stretch;
+  height: 1080px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--padding-91xl) var(--padding-xl);
+  max-width: 100%;
+}
+.ourTeam {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  overflow-y: auto;
+  align-items: flex-end;
+  padding: 0 0 197px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .starclinchSquads {
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .missionvisionAnimation {
+    padding-top: var(--padding-52xl);
+    padding-bottom: var(--padding-52xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .starclinchSquads {
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}
